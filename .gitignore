@@ -1,0 +1,131 @@
+.venv
+/data/*
+!/data/*.dvc
+.csv/
+.ipynb_checkpoints/
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Data Science & Analysis Files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.xlsm
+*.db
+*.sqlite
+*.sqlite3
+*.arrow
+
+# Data directories
+datasets/
+raw_data/
+processed_data/
+models/
+checkpoints/
+saved_models/
+model_outputs/
+logs/
+outputs/
+results/
+artifacts/
+cache/
+tmp/
+temp/
+
+# Machine Learning
+*.weights
+*.model
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.onnx
+tensorboard_logs/
+mlruns/
+wandb/
+.neptune/
+.comet/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Documentation
+docs/_build/
+.readthedocs.yml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Configuration files (uncomment if you don't want to track config files)
+# config.ini
+# config.yaml
+# config.json
+# settings.py
+
+# Large files (uncomment if you want to ignore large files)
+# *.zip
+# *.tar.gz
+# *.rar
+# *.7z
