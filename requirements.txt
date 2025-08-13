@@ -22,6 +22,10 @@ ipykernel>=6.0.0
 # Time series analysis
 arch>=5.3.0
 
+# Time series forecasting
+pmdarima>=2.0.0
+tensorflow>=2.10.0
+
 # Additional utilities
 python-dateutil>=2.8.0
 requests>=2.28.0
